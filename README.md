@@ -1,15 +1,9 @@
-# Node - Aplicación del Clima
+# Aplicación de Clima
 
-Aplicación de linea de comandos realizada en la sección 6: Aplicación del Clima - GeoLocation - Open Weather    
-La sección se enfoca en los siguientes temas: 
+Recuerden reconstruir los módulos de node con el comando
+```npm init```
 
-1. Consumo de APIs
-2. Llamadas HTTP hacia servidores externos
-3. Paquete Axios
-4. Uso de servicios para obtener la dirección por nombre.
-5. Uso de OpenWeather para obtener el clima.
+# Nota:
+Esto es parte de mi curso de Node:
 
-### Ejemplo:
-```
-node app -d Madrid
-```
+[Node de cero a experto](https://fernando-herrera.com/#/curso/node-cero-experto)
