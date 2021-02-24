@@ -59,14 +59,13 @@ class Busquedas {
         }
     }
 
-
     async climaLugar( lat, lon ) {
 
         try {
             
             const instance = axios.create({
                 baseURL: `https://api.openweathermap.org/data/2.5/weather`,
-                params: { ...this.paramsWeather, lat, lon }
+                params: { ...this.paramsWeather, lat, lon } // los 3 puntitos son para desestrucutrar el get (?)
             })
 
             const resp = await instance.get();
@@ -121,9 +120,5 @@ class Busquedas {
     }
 
 }
-
-
-
-
 
 module.exports = Busquedas;
